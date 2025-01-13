@@ -1,9 +1,9 @@
 import Link from 'next/link';
-// import { inter } from '@/app/ui/fonts';
-import { Inter, Lusitana } from 'next/font/google';
+import { geistSans } from '@/app/ui/fonts';
+// import { Inter, Lusitana } from 'next/font/google';
 import Image from 'next/image';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export default function Page() {
 	return (
@@ -32,7 +32,7 @@ export default function Page() {
 				/>
 				<div className='text-center max-w-screen-sm mb-10'>
 					<h1
-						className={`${inter.className} hover:text-stone-200 transition-all`}
+						className={`${geistSans.className} hover:text-stone-200 transition-all`}
 					>
 						Next.js + Postgres Auth Starter
 					</h1>
