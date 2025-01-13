@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Inter, Lusitana } from 'next/font/google';
 import Image from 'next/image';
 
-export const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Page() {
 	return (
