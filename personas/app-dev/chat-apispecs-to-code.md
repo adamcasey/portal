@@ -1,0 +1,1 @@
+Generate a Node Typescript application based on #file:sample-openapi.yaml
