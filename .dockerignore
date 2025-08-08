@@ -1,0 +1,7 @@
+node_modules
+.next
+pnpm-lock.yaml
+Dockerfile
+dist
+debug.log
+.env
